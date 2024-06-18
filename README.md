@@ -9,6 +9,9 @@ Supplemantary material can be found here. (To be included)
 Training data can be found [here](https://portal.nersc.gov/project/ClimateNet/climatenet_new/).
 GOES data can be found here [here](https://www.ncdc.noaa.gov/gridsat/).
 
+# How to run?
+- Data should be in this directory: `labeled_AR`
+
 # Codes
 Data processing
 Code to access training and clippling data to Western US can be found here.

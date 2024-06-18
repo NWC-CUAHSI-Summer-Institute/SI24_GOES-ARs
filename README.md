@@ -15,5 +15,6 @@ Code to access training and clippling data to Western US can be found here.
 Code to access selected GOES data can be found hereto Western US can be found here.
 Machine learning
 
-# Important documents
+# References
+Reviewewd litrature is tracked in this [excel](https://docs.google.com/spreadsheets/d/1ovGYoTcQZkRDXEwAZ5278RPfPh73KC0zgMktf7-vxNM/edit?gid=0#gid=0)
 

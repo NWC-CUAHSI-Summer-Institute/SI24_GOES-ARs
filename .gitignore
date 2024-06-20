@@ -1,0 +1,5 @@
+.cdsapirc
+.ipynb_checkpoints
+
+# Ignore all text files
+*.txt

@@ -6,8 +6,12 @@ This repository contains all necessary information (rationale, methodology, data
 - Supplemantary material can be found here. (To be included)
 
 # Data sources
-- Training data can be found [here](https://portal.nersc.gov/project/ClimateNet/climatenet_new/).
-- GOES data can be found here [here](https://www.ncdc.noaa.gov/gridsat/).
+- GOES Data
+Historical data (1996 to 2017) was extracted from GridSat which can be found [here] (https://www.ncei.noaa.gov/data/gridsat-goes/access/goes/). Paper associated with the study can be found [here] (https://essd.copernicus.org/articles/10/1417/2018/)
+Recent data (2016 to present) was extracted using [GOES2Go] (https://github.com/blaylockbk/goes2go) package in github. 
+- Labeled data
+Hand labeled data for Atmospheric River Landfall event from 1996 to 2013 can be found [here] (https://portal.nersc.gov/project/ClimateNet/). Paper associated with the study can be found [here] (https://gmd.copernicus.org/articles/14/107/2021/)
+Labeled data using TempestAlgorithm from 1979 to 2022 can be found [here] (https://portal.nersc.gov/archive/home/a/arhoades/Shared/www/TE_ERA5_ARs)
 
 # How to run?
 - Data should be in this directory: `labeled_AR`

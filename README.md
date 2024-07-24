@@ -31,8 +31,6 @@ The retrieved data from ERA5 include wind components (u, v) and specific humidit
 > Training: over 100 epochs
 > Trained for 33 hours
 
-![CNN architecture](https://github.com/user-attachments/assets/69e42fce-54d6-4732-9470-fdbd77046bef)
-
 ![image](https://github.com/user-attachments/assets/4b5bb6f2-1aae-4d9a-acc1-dcbc4c50d14d)
 
 - RF model
@@ -43,15 +41,21 @@ The retrieved data from ERA5 include wind components (u, v) and specific humidit
 
 # Results
 - ERA-5 Benchmark Dataset
+
 ![image](https://github.com/user-attachments/assets/20370c3c-a34a-48ac-82f4-352c0d48df9e)
+
 Figure 3: Atmospheric River Identification for December 13, 1997, at 12:00 UTC. (a) Integrated Vapor Transport (IVT), (b) Integrated Water Vapor (IWV), and (c) AR mask indicating identified atmospheric rivers.
 
 - Image Segmentation using RF
+
 ![image](https://github.com/user-attachments/assets/8eb7a1be-091c-49a7-b742-d81fb77ac254)
+
 Figure 4: Random Forest (RF) model predictions compared with labeled data and evaluation results. The top row shows (a) RF model prediction, (b) labeled data, and (c) evaluation of the model which has an IoU of 0.34 and an accuracy of 0.94. 
 
 - Image Segmentation using CNN
+
 ![image](https://github.com/user-attachments/assets/ef611d12-cb9f-4cca-9a6f-8845eb6a18fa)
+
 Figure 5: AR identification using our U-Net model trained on GOES imagery, showing (a) brightness temperature from the water vapor bands (Bands 8-10) as a False Color Composite showing complex cloud patterns and atmospheric features, (b) The labeled dataset provided for training, highlighting the atmospheric river region in white, and (c) the prediction made by the U-Net model, indicating the probability of an atmospheric river (AR), where lighter shades represent higher probabilities.
 
 # Codes
